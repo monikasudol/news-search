@@ -1,0 +1,13 @@
+.newsPage__container {
+  padding: 50px;
+  .newsBoard {
+    &__newsContainer {
+      display: flex;
+      flex-direction: column;
+      article {
+        padding: 10;
+        width: 150px;
+      }
+    }
+  }
+}

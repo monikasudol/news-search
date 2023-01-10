@@ -1,0 +1,18 @@
+{
+  "parser": "@babel/eslint-parser",
+  "extends": ["airbnb"],
+  "rules": {
+    "consistent-return": 0,
+    "import/resolver": 0,
+    "import/no-unresolved": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "prefer-destructuring": 0,
+    "padded-blocks" : 0,
+    "function-paren-newline": 0,
+    "object-curly-newline": 0,
+    "react/button-has-type": 0,
+    "no-restricted-globals": 0,
+    "no-undef": 0,
+    "react/jsx-closing-tag-location": 0
+  }
+}
